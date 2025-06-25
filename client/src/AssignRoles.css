@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+body, .assign-roles-container, .header-container, .role-form, .table, .form-group {
+    font-family: 'Poppins', Arial, Helvetica, sans-serif !important;
+}
+
+.assign-roles-container {
+    padding: 32px;
+    margin: 32px auto;
+    background: linear-gradient(135deg, #e0eafc 0%, #cfdef3 100%);
+    border-radius: 18px;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.15);
+    max-width: 900px;
+    transition: box-shadow 0.3s;
+}
+
+.assign-roles-container:hover {
+    box-shadow: 0 16px 40px 0 rgba(31, 38, 135, 0.22);
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 28px;
+    background: rgba(255,255,255,0.7);
+    padding: 12px 24px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+}
+
+.home-button {
+    margin-left: 10px;
+    padding: 8px 18px;
+    background: linear-gradient(90deg, #43cea2 0%, #185a9d 100%);
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: background 0.2s, transform 0.2s;
+    box-shadow: 0 2px 8px rgba(67,206,162,0.12);
+}
+
+.home-button:hover {
+    background: linear-gradient(90deg, #185a9d 0%, #43cea2 100%);
+    transform: scale(1.05);
+}
+
+.role-form {
+    margin-bottom: 32px;
+    padding: 24px;
+    border: 1.5px solid #b2bec3;
+    border-radius: 12px;
+    background: #fff;
+    box-shadow: 0 2px 12px rgba(67,206,162,0.07);
+    transition: box-shadow 0.2s;
+}
+
+.role-form:hover {
+    box-shadow: 0 6px 24px rgba(67,206,162,0.18);
+}
+
+.form-group input, .form-group select {
+    border-radius: 6px;
+    border: 1px solid #b2bec3;
+    padding: 8px 12px;
+    font-size: 1rem;
+    outline: none;
+    transition: border 0.2s;
+}
+
+.form-group input:focus, .form-group select:focus {
+    border: 1.5px solid #185a9d;
+}
+
+.table {
+    border-radius: 10px;
+    overflow: hidden;
+    margin-top: 24px;
+    font-size: 1.05rem;
+    background: #fff;
+    box-shadow: 0 2px 12px rgba(67,206,162,0.07);
+}
+
+.table thead th {
+    background: linear-gradient(90deg, #43cea2 0%, #185a9d 100%);
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: 1px;
+    border: none;
+}
+
+.table tbody tr:nth-child(even) {
+    background-color: #e0eafc;
+}
+
+.table tbody tr:nth-child(odd) {
+    background-color: #f7faff;
+}
+
+.table tbody tr {
+    transition: background 0.2s;
+}
+
+.table tbody tr:hover {
+    background: #b2bec3;
+    color: #fff;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+    background: #e0eafc;
+}
+::-webkit-scrollbar-thumb {
+    background: #b2bec3;
+    border-radius: 8px;
+}
