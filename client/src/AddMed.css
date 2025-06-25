@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
 
 body, .App, .addmed-container, .addmed-header, .addmed-form, .addmed-table {
@@ -128,3 +129,135 @@ body, .App, .addmed-container, .addmed-header, .addmed-form, .addmed-table {
     background: #b2bec3;
     border-radius: 8px;
 }
+=======
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+body, .App, .addmed-container, .addmed-header, .addmed-form, .addmed-table {
+    font-family: 'Poppins', Arial, Helvetica, sans-serif !important;
+}
+
+.addmed-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #e0eafc 0%, #cfdef3 100%);
+    padding: 20px;
+}
+
+.addmed-content {
+    background: #ffffffcc;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 20px rgba(31, 38, 135, 0.15);
+    max-width: 700px;
+    width: 100%;
+    text-align: center;
+}
+
+.addmed-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.addmed-homeButton {
+    margin-left: auto;
+    cursor: pointer;
+    padding: 8px 18px;
+    background: linear-gradient(90deg, #43cea2 0%, #185a9d 100%);
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    transition: background 0.2s, transform 0.2s;
+    box-shadow: 0 2px 8px rgba(67,206,162,0.12);
+}
+
+.addmed-homeButton:hover {
+    background: linear-gradient(90deg, #185a9d 0%, #43cea2 100%);
+    transform: scale(1.05);
+}
+
+.addmed-form {
+    margin-bottom: 20px;
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+    align-items: center;
+}
+
+.addmed-form input {
+    border-radius: 6px;
+    border: 1px solid #b2bec3;
+    padding: 8px 12px;
+    font-size: 1rem;
+    outline: none;
+    transition: border 0.2s;
+}
+
+.addmed-form input:focus {
+    border: 1.5px solid #185a9d;
+}
+
+.addmed-submitButton {
+    background: linear-gradient(90deg, #43cea2 0%, #185a9d 100%);
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    font-weight: 600;
+    padding: 8px 18px;
+    cursor: pointer;
+    transition: background 0.2s, transform 0.2s;
+}
+
+.addmed-submitButton:hover {
+    background: linear-gradient(90deg, #185a9d 0%, #43cea2 100%);
+    transform: scale(1.05);
+}
+
+.addmed-table {
+    margin-top: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    font-size: 1.05rem;
+    background: #fff;
+    box-shadow: 0 2px 12px rgba(67,206,162,0.07);
+}
+
+.addmed-table thead th {
+    background: linear-gradient(90deg, #43cea2 0%, #185a9d 100%);
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: 1px;
+    border: none;
+}
+
+.addmed-table tbody tr:nth-child(even) {
+    background-color: #e0eafc;
+}
+
+.addmed-table tbody tr:nth-child(odd) {
+    background-color: #f7faff;
+}
+
+.addmed-table tbody tr {
+    transition: background 0.2s;
+}
+
+.addmed-table tbody tr:hover {
+    background: #b2bec3;
+    color: #fff;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+    background: #e0eafc;
+}
+::-webkit-scrollbar-thumb {
+    background: #b2bec3;
+    border-radius: 8px;
+}
+>>>>>>> c37c2baaba4126f1f014121c51c93ad1669ad6a6

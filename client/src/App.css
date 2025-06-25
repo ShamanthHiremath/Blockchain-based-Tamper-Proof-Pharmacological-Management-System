@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 hr{
     position: relative;
     top: 20px;
@@ -10,3 +11,17 @@ hr{
     margin-top: 5rem;
 }
 
+=======
+hr{
+    position: relative;
+    top: 20px;
+    border: none;   
+    height: 12px;
+    background: black;
+}
+.wait{
+    text-align: center;
+    margin-top: 5rem;
+}
+
+>>>>>>> c37c2baaba4126f1f014121c51c93ad1669ad6a6
